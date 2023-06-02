@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/Projects/home-main.svg";
+import homeLogo from "../../Assets/Projects/logo.png";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -21,10 +21,11 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MANOHAR KUMAR P</strong>
+                <strong className="main-name"> Complaint registry</strong>
               </h1>
-
+              
               <div style={{ padding: 50, textAlign: "left" }}>
+              <h1>We <strong>Provide:</strong> </h1>
                 <Type />
               </div>
             </Col>
@@ -38,12 +39,7 @@ function Home() {
               />
             </Col>
           </Row>
-          <Row>
-            <Col>
-            <h1 className="heading-name">Let's connect</h1>
-        <h1 style={{color:"yellow", paddingLeft:"45px"}}> thakurmanoharkumar7@gmail.com</h1>
-            </Col>
-          </Row>
+
         </Container>
         </Container>
       <Home2 />

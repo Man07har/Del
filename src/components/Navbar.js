@@ -7,11 +7,10 @@ import { Link } from "react-router-dom";
 
 import {
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -66,29 +65,10 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+      
 
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
+            
 
             
           </Nav>
